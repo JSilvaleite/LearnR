@@ -1,0 +1,53 @@
+#criando um vetor em R
+vetor1 <- c(1:10)
+vetor1
+#descobrindo o tamanho do vetor
+length(vetor1)
+mode(vetor1)
+#descobrindo o tipo de classe do objeto criado
+class(vetor1)
+typeof(vetor1)
+
+
+#matriz: um matriz possui duas dimenssões com apenas um tipo de dado, ou seja em se tratando de matrizes podemos apenas ter um tipo de dado
+matriz1 <-matrix(1:10,nrow = 2)
+matriz1
+#A matriz1 terá duas linhas e cinco colunas, a divisão é multipla de acordo com o numero de linhas terá um número x de colunas
+#tamanho da matriz
+length(matriz1)
+mode(matriz1)
+class(matriz1)
+typeof(matriz1)
+
+#array possui diferente das matrizes possui duas ou mais dimenssões e apenas um tipo de dado
+array1 <- array(1:5,dim =c(3,3,3))
+array1
+length(array1)
+mode(array1)
+class(array1)
+typeof(array1)
+
+#data frame é o que geralmente trabalhamos para analisar dados, ele é como se fosse uma tabela
+#há dataframe que já veem pré instalados no R, como no caso do Iris, por isso nesse caso abaixo não precisamos utiliza o comando read.table
+#para abrir o dataframe em questão
+View(iris)
+length(iris)
+class(iris)
+typeof(iris)
+
+#as listas são uma coleção de diferentes objetos
+lista1 <-list (a=matriz1,b=vetor1)
+lista1
+length(lista1)
+mode(lista1)
+class(lista1)
+typeof(lista1)
+
+
+#as funções são vistas como objetos em R
+func1 <-function(x){
+  var1<-x*x
+  return(var1)
+}
+func1(5)
+  class(func1)
