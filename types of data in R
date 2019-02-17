@@ -1,0 +1,52 @@
+#tipos de dados em R
+#Numeric - todos os numeros criados em R são do tipo numerico
+num = 5
+num
+
+num2 = 9
+num2
+
+x= -240
+
+class(x)
+
+#conversao de tipos de numeros
+is.integer(num2)
+y = as.integer(num2)
+class(y)
+
+x2 =3.14
+x2
+y2=as.integer(x2)
+class(y2)
+
+y2
+
+as.integer('4.15')
+
+#charc
+
+char1= 'A'
+char1
+
+char2='bolha'
+char2
+
+#complex
+ compl = 2.5 + 4i
+ compl
+ class(compl)
+ 
+ sqrt(-1)
+ sqrt(-1+0i)
+ sqrt(as.complex(-1))
+ 
+ #logic
+ 
+ x=1;y=2
+ 
+ z= x>y
+z
+
+class(z)
+
