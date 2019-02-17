@@ -1,0 +1,31 @@
+Operadores na linguagem R
+#soma
+4+4
+#subtração
+4-2
+#multiplicaÃ§Ã£o
+4*4
+#divisão
+4/4
+#potÃªncia 
+4^2
+16%%2
+
+#operadores relacionais, tais operadores servem como elemento de comparação
+a = 7
+b = 5
+ 
+a > 8
+a < 8
+a <= 8
+a >= 8
+a == 8
+a != 8
+
+
+#operadores lÃ³gicos
+
+(a==8) & (b==6)
+(a==7) &(b==5)
+(a==8) | (b>5)
+(a==7) | (b>5)
